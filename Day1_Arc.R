@@ -1,5 +1,8 @@
 # Load data
 dataUU <- read.csv("/Users/mohammadumersharifshohan/Desktop/Visualization_A_day/Day1_Arc_diagram/13_AdjacencyUndirectedUnweighted.csv", header=TRUE, sep = " ")
+##Data download
+##https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/13_AdjacencyUndirectedUnweighted.csv
+
 View(dataUU)
 # Transform the adjacency matrix in a long format
 connect <- dataUU %>% 
